@@ -11,7 +11,7 @@ uint8_t Rx_Over=0;
 int main(void)
 {SysTick_Config(SystemCoreClock/1000);
 	USART_init();
-	LD3320_main();				//LD3320ִ�к���
+	LD3320_main();				//LD3320Ö´ÐÐº¯Êý
 	for(;;)
 	{
 		
@@ -22,5 +22,7 @@ void Dely_Ms(uint16_t Timing)
 {
 Delay_Ms=Timing;
 	while(Delay_Ms);
+	
+	//khjj
 
 }
